@@ -1,0 +1,43 @@
+<link href="../static/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="../static/js/bootstrap.min.js"></script>
+<script src="../static/jquery/jquery-1.11.1.min.js"></script>
+<link href="../static/css/custom1.css" rel="stylesheet" id="bootstrap-css">
+<!------ Include the above in your HEAD tag ---------->
+
+</head>
+	<body id="LoginForm">
+		<div class="container">
+			<h1 class="form-heading">Login Form</h1>
+			<div class="login-form">
+				<div class="main-div">
+				    <div class="panel">
+				 	   <h3>Admin Login</h3> 
+					   <h2>Please enter your registered Email and Password</h2>
+				    </div>
+				    <form id="Login" action="/validateuser" method="post">
+
+				        <div class="form-group">
+
+
+				            <input type="email" name="inputEmail" class="form-control" id="inputEmail" placeholder="Email Address">
+
+				        </div>
+
+				        <div class="form-group">
+
+				            <input type="password" name="inputPassword" class="form-control" id="inputPassword" placeholder="Password">
+
+				        </div>
+				        <div class="forgot">
+					        <a href="reset.html">Forgot password?</a>
+					    </div>
+					        <button type="submit" class="btn btn-primary">Login</button>
+				    </form>
+				    </div>
+				</div>
+			</div>
+		</div>
+
+
+	</body>
+</html>
